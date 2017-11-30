@@ -1,0 +1,49 @@
+{
+  "name": "wink-lexicon",
+  "version": "0.3.0",
+  "description": "English lexicon useful in NLP/NLU",
+  "keywords": [
+    "Lexicon",
+    "Irregular Verbs",
+    "Irregular Nouns",
+    "Mass Nouns",
+    "Singular",
+    "Plural",
+    "POS",
+    "Part-of-Speech",
+    "wink"
+  ],
+  "main": "src/wink-lexicon.js",
+  "scripts": {
+    "pretest": "npm run lint && npm run hint",
+    "test": "istanbul cover _mocha ./test/",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "sourcedocs": "docker -i src -o ./sourcedocs --sidebar no",
+    "hint": "jshint ./src/*.js ./test/*.js",
+    "lint": "eslint ./src/*.js ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winkjs/wink-lexicon.git"
+  },
+  "author": "Sanjaya Kumar Saxena",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/winkjs/wink-lexicon/issues"
+  },
+  "homepage": "https://github.com/winkjs/wink-lexicon#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "coveralls": "^3.0.0",
+    "docker": "^1.0.0",
+    "eslint": "^4.8.0",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.4",
+    "mocha": "^4.0.1",
+    "mocha-lcov-reporter": "^1.2.0"
+  },
+  "dependencies": {
+    "wink-helpers": "^1.2.0",
+    "wink-tokenizer": "^2.0.1"
+  }
+}
