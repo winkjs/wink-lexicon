@@ -42,8 +42,5 @@
     "mocha": "^4.0.1",
     "mocha-lcov-reporter": "^1.2.0"
   },
-  "dependencies": {
-    "wink-helpers": "^1.2.0",
-    "wink-tokenizer": "^2.0.1"
-  }
+  "dependencies": {}
 }
