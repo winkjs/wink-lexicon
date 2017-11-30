@@ -25,15 +25,7 @@
 
 var chai = require( 'chai' );
 var mocha = require( 'mocha' );
-var irregularNouns = require( '../src/irregular-nouns.js' );
-var irregularVerbs = require( '../src/irregular-verbs.js' );
-var lexicon = require( '../src/lexicon.js' );
-var punctuations = require( '../src/punctuations.js' );
-var singularNouns = require( '../src/singular-nouns.js' );
-var tags = require( '../src/tags.js' );
-var uncountableNouns = require( '../src/uncountable-nouns.js' );
-var uninflectedNouns = require( '../src/uninflected-nouns.js' );
-var unknownWords = require( '../src/unknown-words.js' );
+var wl = require( '../src/wink-lexicon.js' );
 
 var expect = chai.expect;
 var describe = mocha.describe;
@@ -41,15 +33,15 @@ var it = mocha.it;
 
 describe( 'basic test cycle', function () {
   it( 'count keys', function () {
-      expect( Object.keys( irregularNouns.singular ).length ).to.deep.equal( 15 );
-      expect( Object.keys( irregularNouns.plural ).length ).to.deep.equal( 15 );
-      expect( Object.keys( irregularVerbs ).length ).to.deep.equal( 424 );
-      expect( Object.keys( lexicon ).length ).to.deep.equal( 13455 );
-      expect( Object.keys( punctuations ).length ).to.deep.equal( 16 );
-      expect( Object.keys( singularNouns ).length ).to.deep.equal( 24 );
-      expect( Object.keys( tags ).length ).to.deep.equal( 8 );
-      expect( Object.keys( uncountableNouns ).length ).to.deep.equal( 186 );
-      expect( Object.keys( uninflectedNouns ).length ).to.deep.equal( 31 );
-      expect( Object.keys( unknownWords ).length ).to.deep.equal( 9 );
+      expect( Object.keys( wl.irregularNouns.singular ).length ).to.deep.equal( 15 );
+      expect( Object.keys( wl.irregularNouns.plural ).length ).to.deep.equal( 15 );
+      expect( Object.keys( wl.irregularVerbs ).length ).to.deep.equal( 424 );
+      expect( Object.keys( wl.lexicon ).length ).to.deep.equal( 13455 );
+      expect( Object.keys( wl.punctuations ).length ).to.deep.equal( 16 );
+      expect( Object.keys( wl.singularNouns ).length ).to.deep.equal( 24 );
+      expect( Object.keys( wl.tags ).length ).to.deep.equal( 8 );
+      expect( Object.keys( wl.uncountableNouns ).length ).to.deep.equal( 186 );
+      expect( Object.keys( wl.uninflectedNouns ).length ).to.deep.equal( 31 );
+      expect( Object.keys( wl.unknownWords ).length ).to.deep.equal( 9 );
   } );
 } );
