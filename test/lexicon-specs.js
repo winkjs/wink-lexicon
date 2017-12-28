@@ -42,6 +42,6 @@ describe( 'basic test cycle', function () {
       expect( Object.keys( wl.tags ).length ).to.deep.equal( 8 );
       expect( Object.keys( wl.uncountableNouns ).length ).to.deep.equal( 186 );
       expect( Object.keys( wl.uninflectedNouns ).length ).to.deep.equal( 31 );
-      expect( Object.keys( wl.unknownWords ).length ).to.deep.equal( 9 );
+      expect( Object.keys( wl.unknownWords ).length ).to.deep.equal( 20 );
   } );
 } );
