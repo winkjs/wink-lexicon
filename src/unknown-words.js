@@ -25,13 +25,24 @@
 /** @private */
 var unknownWordsPOS = Object.create( null );
 unknownWordsPOS.s = 'NNS';
+unknownWordsPOS.us = 'NN';
 unknownWordsPOS.ss = 'NN';
+unknownWordsPOS.sis = 'NN';
 unknownWordsPOS.ing = 'VBG';
 unknownWordsPOS.ed = 'VBN';
 unknownWordsPOS.ly = 'RB';
-unknownWordsPOS.ble = 'JJ';
 unknownWordsPOS.al = 'JJ';
-unknownWordsPOS.ous = 'JJ';
 unknownWordsPOS.ic = 'JJ';
+unknownWordsPOS.ve = 'JJ';
+unknownWordsPOS.ble = 'JJ';
+unknownWordsPOS.ous = 'JJ';
+unknownWordsPOS.ful = 'JJ';
+unknownWordsPOS.ary = 'JJ';
+unknownWordsPOS.ish = 'JJ';
+unknownWordsPOS.lar = 'JJ';
+unknownWordsPOS.ory = 'JJ';
+unknownWordsPOS.less = 'JJ';
+unknownWordsPOS.ier = 'JJR';
+unknownWordsPOS.est = 'JJS';
 
 module.exports = unknownWordsPOS;
