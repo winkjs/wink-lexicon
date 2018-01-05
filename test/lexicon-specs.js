@@ -35,7 +35,7 @@ describe( 'basic test cycle', function () {
   it( 'count keys', function () {
       expect( Object.keys( wl.irregularNouns.singular ).length ).to.deep.equal( 15 );
       expect( Object.keys( wl.irregularNouns.plural ).length ).to.deep.equal( 15 );
-      expect( Object.keys( wl.irregularVerbs ).length ).to.deep.equal( 430 );
+      expect( Object.keys( wl.irregularVerbs ).length ).to.deep.equal( 435 );
       expect( Object.keys( wl.lexicon ).length ).to.deep.equal( 13455 );
       expect( Object.keys( wl.punctuations ).length ).to.deep.equal( 16 );
       expect( Object.keys( wl.singularNouns ).length ).to.deep.equal( 24 );
