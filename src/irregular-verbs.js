@@ -649,10 +649,17 @@ iVerbs.write = write;
 iVerbs.wrote = write;
 iVerbs.written = write;
 var be = 'be';
+iVerbs.be = be;
 iVerbs.is = be;
 iVerbs.am = be;
 iVerbs.are = be;
 iVerbs.was = be;
 iVerbs.were = be;
+var can = 'can';
+iVerbs.can = can;
+iVerbs.could = can;
+var will = 'will';
+iVerbs.will = will;
+iVerbs.would = will;
 
 module.exports = iVerbs;
