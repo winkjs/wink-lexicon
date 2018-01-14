@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/winkjs/wink-lexicon/issues"
   },
-  "homepage": "https://github.com/winkjs/wink-lexicon#readme",
+  "homepage": "http://winkjs.org/",
   "devDependencies": {
     "chai": "^4.1.0",
     "coveralls": "^3.0.0",
