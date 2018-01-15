@@ -16,7 +16,7 @@ Use [npm](https://www.npmjs.com/package/wink-lexicon) to install:
 
 
 ### Documentation
-
+Work-in-progress!
 
 ### Need Help?
 
@@ -28,3 +28,6 @@ If you spot a bug and the same has not yet been reported, raise a new [issue](ht
 
 It is licensed under the under the terms of the GNU Affero General Public License as published by the Free
 Software Foundation, version 3 of the License.
+
+#### Acknowledgement
+This also includes **data derived** from [WordNet](http://wordnet.princeton.edu/wordnet/license/) &#169; Princeton University and [fnTBL](http://www.cs.jhu.edu/~rflorian/fntbl/license.html) &#169; Johns Hopkins Whiting School of Engineering.
