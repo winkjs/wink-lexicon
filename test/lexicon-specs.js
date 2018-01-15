@@ -45,5 +45,6 @@ describe( 'basic test cycle', function () {
       expect( Object.keys( wl.unknownWords ).length ).to.deep.equal( 20 );
       expect( wl.wnSenses.length ).to.deep.equal( 45 );
       expect( Object.keys( wl.wnWords ).length ).to.deep.equal( 77262 );
+      expect( wl.wnWordSenses.length ).to.deep.equal( 77262 );
   } );
 } );

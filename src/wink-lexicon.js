@@ -33,5 +33,6 @@ wl.uninflectedNouns = require( '../src/uninflected-nouns.js' );
 wl.unknownWords = require( '../src/unknown-words.js' );
 wl.wnSenses = require( '../src/wn-senses.js' );
 wl.wnWords = require( '../src/wn-words.js' );
+wl.wnWordSenses = require( '../src/wn-word-senses.js' );
 
 module.exports = wl;
