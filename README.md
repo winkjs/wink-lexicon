@@ -16,7 +16,7 @@ Use [npm](https://www.npmjs.com/package/wink-lexicon) to install:
 
 
 ### Documentation
-Work-in-progress!
+Work-in-progress, please stand by!
 
 ### Need Help?
 
