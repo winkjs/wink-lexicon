@@ -31,5 +31,6 @@ wl.tags = require( '../src/tags.js' );
 wl.uncountableNouns = require( '../src/uncountable-nouns.js' );
 wl.uninflectedNouns = require( '../src/uninflected-nouns.js' );
 wl.unknownWords = require( '../src/unknown-words.js' );
+wl.wnSenses = require( '../src/wn-senses.js' );
 
 module.exports = wl;
