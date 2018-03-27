@@ -34,5 +34,8 @@ wl.unknownWords = require( '../src/unknown-words.js' );
 wl.wnSenses = require( '../src/wn-senses.js' );
 wl.wnWords = require( '../src/wn-words.js' );
 wl.wnWordSenses = require( '../src/wn-word-senses.js' );
+wl.wnNounExceptions = require( '../src/wn-noun-exceptions.js' );
+wl.wnVerbExceptions = require( '../src/wn-verb-exceptions.js' );
+wl.wnAdjectiveExceptions = require( '../src/wn-adjective-exceptions.js' );
 
 module.exports = wl;
