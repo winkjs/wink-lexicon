@@ -2879,7 +2879,6 @@ exceptions.interreges = interrex;
 exceptions.interregna = interregnum;
 exceptions.intimae = intima;
 exceptions.involucella = involucellum;
-//exceptions.involucra = involucre;
 exceptions.involucra = involucrum;
 exceptions.irides = iris;
 exceptions.irs = irs;
