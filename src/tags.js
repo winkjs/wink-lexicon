@@ -32,5 +32,6 @@ tagPOS.url = 'NN';
 tagPOS.emoticon = 'M';
 tagPOS.emoji = 'M';
 tagPOS.time = 'JJ';
+tagPOS.ordinal = 'JJ';
 
 module.exports = tagPOS;
