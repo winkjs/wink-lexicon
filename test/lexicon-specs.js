@@ -31,12 +31,12 @@ var expect = chai.expect;
 var describe = mocha.describe;
 var it = mocha.it;
 
-describe( 'basic test cycle', function () {
-  it( 'count keys', function () {
+describe( 'wink lexicon', function () {
+  it( 'should be complete & accessible', function () {
       expect( Object.keys( wl.irregularNouns.singular ).length ).to.deep.equal( 15 );
       expect( Object.keys( wl.irregularNouns.plural ).length ).to.deep.equal( 15 );
       expect( Object.keys( wl.irregularVerbs ).length ).to.deep.equal( 435 );
-      expect( Object.keys( wl.lexicon ).length ).to.deep.equal( 13457 );
+      expect( Object.keys( wl.lexicon ).length ).to.deep.equal( 13462 );
       expect( Object.keys( wl.punctuations ).length ).to.deep.equal( 16 );
       expect( Object.keys( wl.singularNouns ).length ).to.deep.equal( 24 );
       expect( Object.keys( wl.tags ).length ).to.deep.equal( 9 );
