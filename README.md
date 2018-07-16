@@ -2,7 +2,7 @@
 
 English lexicon useful in NLP/NLU
 
-### [![Build Status](https://api.travis-ci.org/winkjs/wink-lexicon.svg?branch=master)](https://travis-ci.org/winkjs/wink-lexicon) [![Coverage Status](https://coveralls.io/repos/github/winkjs/wink-lexicon/badge.svg?branch=master)](https://coveralls.io/github/winkjs/wink-lexicon?branch=master) [![devDependencies Status](https://david-dm.org/winkjs/wink-lexicon/dev-status.svg)](https://david-dm.org/winkjs/wink-lexicon?type=dev)
+### [![Build Status](https://api.travis-ci.org/winkjs/wink-lexicon.svg?branch=master)](https://travis-ci.org/winkjs/wink-lexicon) [![Coverage Status](https://coveralls.io/repos/github/winkjs/wink-lexicon/badge.svg?branch=master)](https://coveralls.io/github/winkjs/wink-lexicon?branch=master) [![devDependencies Status](https://david-dm.org/winkjs/wink-lexicon/dev-status.svg)](https://david-dm.org/winkjs/wink-lexicon?type=dev) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/winkjs/Lobby)
 
 [<img align="right" src="https://decisively.github.io/wink-logos/logo-title.png" width="100px" >](http://winkjs.org/)
 
