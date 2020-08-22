@@ -49,7 +49,7 @@ describe( 'wink lexicon', function () {
       expect( wl.wnSenses.length ).to.deep.equal( 45 );
       expect( Object.keys( wl.wnWords ).length ).to.deep.equal( 77262 );
       expect( wl.wnWordSenses.length ).to.deep.equal( 77262 );
-      expect( Object.keys( wl.wnNounExceptions ).length ).to.deep.equal( 1944 );
+      expect( Object.keys( wl.wnNounExceptions ).length ).to.deep.equal( 1945 );
       expect( Object.keys( wl.wnVerbExceptions ).length ).to.deep.equal( 2220 );
       expect( Object.keys( wl.wnAdjectiveExceptions ).length ).to.deep.equal( 1479 );
   } );
