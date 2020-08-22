@@ -1,7 +1,7 @@
 //     wink-lexicon
 //     English lexicon useful in NLP/NLU
 //
-//     Copyright (C) 2017-19  GRAYPE Systems Private Limited
+//     Copyright (C) GRAYPE Systems Private Limited
 //
 //     This file is part of “wink-lexicon”.
 //
