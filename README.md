@@ -4,12 +4,16 @@ English lexicon useful in NLP/NLU
 
 ### [![Build Status](https://api.travis-ci.org/winkjs/wink-lexicon.svg?branch=master)](https://travis-ci.org/winkjs/wink-lexicon) [![Coverage Status](https://coveralls.io/repos/github/winkjs/wink-lexicon/badge.svg?branch=master)](https://coveralls.io/github/winkjs/wink-lexicon?branch=master) [![devDependencies Status](https://david-dm.org/winkjs/wink-lexicon/dev-status.svg)](https://david-dm.org/winkjs/wink-lexicon?type=dev) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/winkjs/Lobby)
 
-[<img align="right" src="https://decisively.github.io/wink-logos/logo-title.png" width="100px" >](http://winkjs.org/)
-
 The **`wink-lexicon`** is useful in NLP and NLU. It is an internal package of [wink](http://winkjs.org/) and is being used by the following wink packages:
 
 1. [**`wink-ner`**](http://winkjs.org/wink-ner/) — Language agnostic named entity recognizer
 2. [**`wink-pos-tagger`**](http://winkjs.org/wink-pos-tagger/) — English Part-of-speech (POS) tagger
+
+<table><tr><td>
+    <a href="https://github.com/winkjs/wink-nlp"><img align="right" src="https://decisively.github.io/wink-logos/logo-title.png" width="100px" ></a>
+    <h3>Looking for an all purpose NLP library? Try <a href="https://github.com/winkjs/wink-nlp">wink-nlp</a>!</h3>
+    Developer friendly NLP ✨ winkNLP is a JavaScript library for Natural Language Processing (NLP). Designed specifically to make development of NLP solutions easier and faster, winkNLP is optimized for the right balance of performance and accuracy
+</td></tr></table>
 
 ### Installation
 
