@@ -2,7 +2,7 @@
 
 English lexicon useful in NLP/NLU
 
-### [![Build Status](https://api.travis-ci.org/winkjs/wink-lexicon.svg?branch=master)](https://travis-ci.org/winkjs/wink-lexicon) [![Coverage Status](https://coveralls.io/repos/github/winkjs/wink-lexicon/badge.svg?branch=master)](https://coveralls.io/github/winkjs/wink-lexicon?branch=master) [![devDependencies Status](https://david-dm.org/winkjs/wink-lexicon/dev-status.svg)](https://david-dm.org/winkjs/wink-lexicon?type=dev) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/winkjs/Lobby)
+### [![Build Status](https://api.travis-ci.com/winkjs/wink-lexicon.svg?branch=master)](https://travis-ci.org/winkjs/wink-lexicon) [![Coverage Status](https://coveralls.io/repos/github/winkjs/wink-lexicon/badge.svg?branch=master)](https://coveralls.io/github/winkjs/wink-lexicon?branch=master) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/winkjs/Lobby)
 
 [<img align="right" src="https://decisively.github.io/wink-logos/logo-title.png" width="100px" >](http://winkjs.org/)
 
@@ -12,7 +12,7 @@ The **`wink-lexicon`** is useful in NLP and NLU. It is an internal package of [w
 2. [**`wink-pos-tagger`**](http://winkjs.org/wink-pos-tagger/) — English Part-of-speech (POS) tagger
 
 <table><tr><td>
-    <h5>Use <a href="https://github.com/winkjs/wink-nlp">wink-nlp</a> if your are looking for an integrated NLP package✨</h5>
+    <h3>Use <a href="https://github.com/winkjs/wink-nlp">wink-nlp</a> if your are looking for an integrated NLP package✨</h5>
     <a href="https://github.com/winkjs/wink-nlp">WinkNLP</a> is a <b>developer friendly</b> JavaScript library for Natural Language Processing. Designed specifically to make development of NLP solutions <b>easier</b> and <b>faster</b>, winkNLP is optimized for the right balance of performance and accuracy. The package can handle large amount of raw text at speeds <b>over 525,000 tokens/second</b> for the <b>entire NLP pipeline</b>.
 </td></tr></table>
 
